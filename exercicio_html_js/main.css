@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 640px;
+    width: 100;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, button, p {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100;
+}
+
+.success-message {
+    width: 100;
+    background-color: #27ae60;
+    padding: 8px;
+    color: white;
+}
+
+.error-message {
+    width: 100;
+    padding: 8px;
+    background-color: red;
+    color: white;
+}
+
