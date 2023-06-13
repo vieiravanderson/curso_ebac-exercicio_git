@@ -2,25 +2,45 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jquery</title>
-    <link href="./main.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Formulário jQuery</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Lista de tarefas</h1>
-        <form>
-            <input type="text" required id="nome-da-tarefa" placeholder="Nome da tarefa">
-            <button type="submit">Adicionar</button>
-        </form>
-        <ul>
-        </ul>
-    </div>
+    <form>
+        <div class="container">
+            <h1>Formulário de contato</h1>
+            <div class="campo">       
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome completo">
+            </div> 
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone">
+            </div>
+            <div class="campo">
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf">
+            </div>
+            <div class="campo">
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco" placeholder="Endereço">
+            </div>
+            <div class="campo">
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep">
+            </div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src="./main.js"></script>
+    <script type="text/javascript" src="./js/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="./js/messages_pt_BR.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>
