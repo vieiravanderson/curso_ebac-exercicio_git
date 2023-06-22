@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:beige;
+}
+
+.container {
+    max-width: 1360;
+    width: 100%;
+    margin: 40px auto;
+}
+
+.container h1 {
+    margin-bottom: 32px;
+}
+
+form {
+    width: 720px;
+    margin: 20px auto;
+}
+
+form input {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px;
+    width: 190px;
+    text-align: center;
+    background-color:bisque;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:cornsilk;
+}
+
+.campo {
+    margin: 24px 0;
+}
